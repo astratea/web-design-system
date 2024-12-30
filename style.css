@@ -1,0 +1,387 @@
+/*Basic settings*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0 1vw;
+    box-sizing: border-box;
+    font-family: Lato;
+    background-color: #E4ECFD;
+    color: #0B1F33;
+    overflow-x: hidden;
+}
+/*Header settings*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: auto;
+    margin: 40px 0;
+    padding: 32px;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+/*Navigation settings*/
+
+.nav {
+    height: auto;
+}
+
+
+a:link {
+    text-decoration:none;
+    color: #0B1F33;
+    letter-spacing: 0,7px;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #1D5DEB;
+}
+
+.navigation > li {
+    display: inline;
+}
+
+li {
+    padding: 0px 20px;
+}
+
+ul {
+    display: block;
+    padding-inline-start: 0;
+    margin-block-start: 12px;
+    margin-block-end: 12px;
+}
+
+
+/*Font settings*/
+
+h1 {
+    height: auto;
+    display: inline-block;
+    margin: auto;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0px 0px 56px 0px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+    margin: auto;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+
+}
+
+/*Section Colors*/
+
+#section {
+    height: auto;
+    margin: 40px 0;
+    padding: 40px 60px;
+    background-color: white;
+    border-radius: 32px;
+    gap: 32px;
+    
+}
+
+.warp-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: flex-start;
+}
+
+.color-card {
+    flex: 1 1 328px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    max-width: 328px; 
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 16px;
+}
+
+.color-label {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 28px;
+    text-align:left;
+}
+
+.color-hex {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.colorbox {
+    height: 96px;
+    width: 96px;
+    border-radius: 1000px;
+}
+
+#white {
+    background-color: white;
+    border: 1px #99B1E6 solid;
+}
+
+#blue {
+    background-color: #0D4CD3;
+}
+
+#red {
+    background-color: #EE3F58;
+}
+
+#summer-night {
+    background-color: #0B1F33;
+}
+
+#paura {
+    background-color: #F8DEE4;
+}
+
+#divisore {
+    background-color: #99B1E6;
+}
+
+#mandorle-pelate {
+    background-color: #FEF0CC;
+}
+
+#giovani-steli {
+    background-color: #DDF5E7;
+}
+
+#telegrey-scuro {
+    background-color: #86909C;
+}
+
+.anchor {
+    position: relative;
+    left: 0px;
+    top: -80px;
+}
+
+/*Section Fonts*/
+
+.vertical-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.font-card {
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+    align-items: center;
+    padding: 40px 0px 40px 0px;
+    border-bottom: 1px #ECF0F8 solid;
+
+}
+
+.description-fonts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    min-width: 228px;
+}
+
+.font-size {
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.font-name {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.text-example {
+    overflow-wrap: break-word;
+    white-space: normal;
+    word-wrap: break-word;
+
+}
+
+#heading1 {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+#heading2 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+#heading3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+#heading4 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+#heading5 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+#heading6 {
+    font-size: 16x;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+#plain-text {
+    font-size: 16x;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+#plain-text-small {
+    font-size: 14x;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+/*Section Buttons*/
+
+.button-cards {
+    display: flex;
+    flex-wrap: wrap;     
+    gap: 56px;
+}
+
+.primary-buttons-types {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width:400px;
+}
+
+.button-card {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    max-width: 200px;
+    align-items: center;
+}
+
+.button {
+    display: flex;  
+    padding: 14px 40px 14px 40px;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px;
+}
+
+#default {
+    background-color: #0D4CD3;
+    color: white;
+}
+
+#hover {
+    background-color: #1D5DEB;
+    color: white;
+}
+
+#pressed {
+    background-color: #0B40B3;
+    color: white;
+}
+
+#disabled {
+    background-color: #E5EAF5;
+    color: #86909C;
+}
+
+#loader {
+    background-color: #0D4CD3;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-icon {
+    height: 24px;              
+    width: 24px;
+    margin: 0;        
+    padding: 0px 21px;        
+    object-fit: cover; 
+}
+
+#default-sec {
+    background-color: white;
+    border: #0D4CD3 2px solid;
+    color: #0D4CD3;
+}
+
+#hover-sec {
+    background-color: #F5F7FA;
+    border: #1D5DEB 2px solid;
+    color: #1D5DEB;
+}
+
+#pressed-sec {
+    background-color: #F5F7FA;
+    border: #0B40B3 2px solid;
+    color: #0B40B3;
+}
+
+#disabled-sec {
+    background-color: #E5EAF5;
+    color: #86909C;
+}
+
+#loader-sec {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border: #0D4CD3 2px solid;
+}
+
+.button-label {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align:left;
+}
